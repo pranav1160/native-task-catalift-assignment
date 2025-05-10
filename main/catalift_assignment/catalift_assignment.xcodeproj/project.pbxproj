@@ -10,10 +10,12 @@
 		810E451D2DCF858200A053E1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 810E451C2DCF858200A053E1 /* FirebaseAuth */; };
 		810E452D2DCF986400A053E1 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 810E452C2DCF986400A053E1 /* GoogleSignIn */; };
 		810E452F2DCF986400A053E1 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 810E452E2DCF986400A053E1 /* GoogleSignInSwift */; };
+		810E45372DCFD70B00A053E1 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 810E45352DCFD70500A053E1 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		810E44FB2DCF773A00A053E1 /* catalift_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catalift_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		810E45352DCFD70500A053E1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +45,7 @@
 			children = (
 				810E44FD2DCF773A00A053E1 /* catalift_assignment */,
 				810E44FC2DCF773A00A053E1 /* Products */,
+				810E45352DCFD70500A053E1 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810E45372DCFD70B00A053E1 /* .gitignore in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

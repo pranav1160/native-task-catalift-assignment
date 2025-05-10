@@ -1,0 +1,8 @@
+//
+//  .gitignore.swift
+//  catalift_assignment
+//
+//  Created by Pranav on 11/05/25.
+//
+
+**/GoogleService-Info.plist
