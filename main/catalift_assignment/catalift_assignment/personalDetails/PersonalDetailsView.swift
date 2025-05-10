@@ -10,6 +10,7 @@ import SwiftUI
 
 struct PersonalDetailsView: View {
     @EnvironmentObject var authVM:AuthViewModel
+    @EnvironmentObject var googleAuthVM :GoogleAuthViewModel
     // ViewModel
     @StateObject private var viewModel = PersonalDetailsViewModel()
     
@@ -308,7 +309,7 @@ struct PersonalDetailsView: View {
               
                     Button(action: {
                         authVM.signOut()
-                        
+                        googleAuthVM.signOut()
                     }) {
                         Text("Logout")
                             .font(.headline)

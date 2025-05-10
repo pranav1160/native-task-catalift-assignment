@@ -52,7 +52,9 @@ struct RegistrationView: View {
                         CustomTextField(placeholder: "Full Name", text: $authVM.fullName)
                         CustomTextField(placeholder: "Phone Number", text: $authVM.phoneNumber, keyboardType: .phonePad)
                         CustomTextField(placeholder: "Email Address", text: $authVM.currEmail, keyboardType: .emailAddress)
+                            .textInputAutocapitalization(.never)
                         CustomTextField(placeholder: "Password", text: $authVM.currPassword, isSecure: true)
+                            .textInputAutocapitalization(.never)
                         
                         VStack {
                             GoogleSignInButton(action: googleAuthVM.signIn)
